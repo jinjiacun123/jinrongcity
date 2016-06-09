@@ -8,6 +8,7 @@ Set conn = Server.createobject("ADODB.Connection")
 
 'connstr="driver={SQL Server};"&"server=mssql.sql126.cdncenter.net;"&"Database=sq_jinrongcity;"&"UID=sq_jinrongcity;PWD=jinrong78;"
 connStr="Provider=SQLOLEDB.1;Password='jinrong78';Persist Security Info=True;User ID='sq_jinrongcity';Initial Catalog='sq_jinrongcity';Data Source='mssql.sql126.cdncenter.net'" 
+'connStr="Provider=SQLOLEDB.1;Password='Jinjiacun@123456';Persist Security Info=True;User ID='sa';Initial Catalog='sq_jinrongcity';Data Source='192.168.1.131'" 
 conn.Open connstr
 newsconn=connstr
 Session.Timeout=30

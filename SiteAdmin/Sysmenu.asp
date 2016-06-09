@@ -64,7 +64,8 @@ body,td,th {
 		
 		d.add(23,0,'系统管理','','系统管理','ContFrame','','','');
 		d.add(24,23,'广告管理','Menu_ad_list.asp','广告管理','ContFrame','','','');
-		d.add(25,23,'友情链接管理','Menu_links_list.asp','友情链接管理','ContFrame','','','');
+		d.add(25,23,'友情链接管理','Menu_link_list.asp','友情链接管理','ContFrame','','','');
+		d.add(26,23,'搜索设置管理','Menu_setting.asp', '搜索设置管理', 'ContFrame', '', '', '');
 		
 		
 		d.add(30,0,'注销管理系统','zxsystem.asp','注销管理系统','_blank','images/passwd.gif','','');
