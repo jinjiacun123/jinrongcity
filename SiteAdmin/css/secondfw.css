@@ -1,0 +1,78 @@
+.in {
+	height: 18px;
+	font-size: 12px;
+	line-height: normal;
+	background-color: #FFFFFF;
+	border-top: 1px solid #9a9a9a;
+	border-right: 1px solid #9a9a9a;
+	border-bottom: 1px solid #9a9a9a;
+	border-left: 1px solid #9a9a9a;
+}
+.add {
+	background-color: #FFFFFF;
+	border-top: 1px dashed #9a9a9a;
+	border-right: 1px dashed #9a9a9a;
+	border-bottom: 1px dashed #9a9a9a;
+	border-left: 1px dashed #9a9a9a;
+}
+.line150 {line-height200%}
+/*-------------------------------------------*/
+a.h2s {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+a.h2s:link {
+	text-decoration: none;
+}
+a.h2s:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.h2s:hover {
+	text-decoration: none;
+	color: #FFFF00;
+}
+a.h2s:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a.c1 {
+	font-size: 12px;
+	color: #0100FE;
+}
+a.c1:link {
+	text-decoration: none;
+}
+a.c1:visited {
+	text-decoration: none;
+	color: #0100FE;
+}
+a.c1:hover {
+	text-decoration: none;
+	color: #000000;
+}
+a.c1:active {
+	text-decoration: none;
+	color: #0100FE;
+}
+
+a.area {
+	font-size: 12px;
+	color: #333333;
+}
+a.area:link {
+	text-decoration: none;
+}
+a.area:visited {
+	text-decoration: none;
+}
+a.area:hover {
+	text-decoration: none;
+	background-color: #067BE4;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+
+}

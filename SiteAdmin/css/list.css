@@ -1,0 +1,171 @@
+body,td,th {
+	font-size: 12px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.line150 {line-height:150%}
+form {margin:0px}
+
+ BODY {
+	scrollbar-arrow-color :#333333;
+	SCROLLBAR-HIGHLIGHT-COLOR: buttonface;
+	SCROLLBAR-SHADOW-COLOR: buttonface;
+	SCROLLBAR-3DLIGHT-COLOR: buttonhighlight;
+	SCROLLBAR-TRACK-COLOR: #eeeeee;
+	SCROLLBAR-DARKSHADOW-COLOR: buttonshadow;}
+
+a.view:link {
+	color: #FF0000;
+	text-decoration: underline;
+}
+a.view:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a.view:hover {
+	text-decoration: none;
+	color: #0B336F;
+}
+a.view:active {
+	text-decoration: none;
+	color: #333333;
+}
+
+a.list:link {
+	color: #FF0000;
+	text-decoration: none;
+}
+a.list:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a.list:hover {
+	text-decoration: underline;
+	color: #0B336F;
+}
+a.list:active {
+	text-decoration: none;
+	color: #333333;
+}
+
+a.page:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.page:visited {
+	text-decoration: none;
+	color: #F8F8F8;
+}
+a.page:hover {
+	text-decoration: underline;
+	color: #EBEBEB;
+}
+a.page:active {
+	text-decoration: none;
+	color: #D6D6D6;
+}
+
+input.a2 {
+BORDER-RIGHT: 1px solid #333333; 
+BORDER-TOP: 1px solid #333333; 
+BORDER-LEFT: 1px solid #333333; 
+BORDER-BOTTOM: 1px solid #333333
+}
+
+a.lm:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.lm:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+a.lm:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+a.lm:active {
+	text-decoration: underline;
+	color: #CCCCCC;
+}
+
+a.lm1:link {
+	color: #000099;
+	text-decoration: none;
+}
+a.lm1:visited {
+	text-decoration: none;
+	color: #000099;
+}
+a.lm1:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+a.lm1:active {
+	text-decoration: underline;
+	color: #333333;
+}
+
+a.lm2:link {
+	color: #000000;
+	text-decoration: none;
+}
+a.lm2:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a.lm2:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a.lm2:active {
+	text-decoration: underline;
+	color: #333333;
+}
+
+.tfocus {
+BORDER-RIGHT: 1px solid #1061A2; 
+BORDER-TOP: 1px solid #1061A2; 
+BORDER-LEFT: 1px solid #1061A2; 
+BORDER-BOTTOM: 1px solid #1061A2;
+}
+.tblur {
+BORDER-RIGHT: 1px solid #333333; 
+BORDER-TOP: 1px solid #333333; 
+BORDER-LEFT: 1px solid #333333; 
+BORDER-BOTTOM: 1px solid #333333;
+}
+
+.buttomw {
+	background-color: #FFFFFF;
+	font-size: 12px;
+	border: 1px solid #999999;
+	background-attachment: fixed;
+	background-image: url(../images/buttom_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 22px;
+	line-height: 20px;
+	cursor: hand;
+}
+
+.headtext {color: #FFFFFF;
+           font-weight: bold;
+		   font-size: 14px;
+	font-family:ËÎÌו;
+	WIDTH: 100%; 
+	filter:DropShadow(Color=#000000, OffX=1, OffY=1, Positive=1);
+}
+
+.dot {color: #FF0000}
+.pt {color: #FFFFFF}
+.ltext {color: #003366; }
+.tips {color: #666666}
+.select {color: #333333; font-weight: bold; }
+.s1 {color: #666666}

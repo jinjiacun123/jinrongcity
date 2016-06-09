@@ -1,0 +1,32 @@
+input {font-family:微软雅黑;}
+.search-wraper {width:258px; height:250px; padding:0 36px; border:1px solid #d2d2d2; background:#f5f5f5; margin-bottom:30px}
+.search-title {width:258px; height:24px; background:url(../images/search.jpg) no-repeat; margin:15px auto 20px;}
+.search-titlelc {width:258px; height:24px; background:url(../images/search1.jpg) no-repeat; margin:15px auto 20px;}
+.sliderSearch {height: 250px;}
+.search_tit, .search_list {width: 258px;}
+.search_tit {font-size: 18px; font-weight: normal; height: 30px; line-height: 30px;text-align: center;}
+.search_tit2 {font-size: 16px; height: 25px;line-height: 25px; text-align: left;}
+.search_tit2 .fr {color: #fff;font-size: 14px;}
+.lihover {background: #e3e9ea none repeat scroll 0 0;}
+.search_list dt, .search_list dt .search_input {background:#dcdcdc; color: #838383; font-size: 18px;height: 18px;line-height: 18px; padding: 12px; width: 234px;border-radius:3px; -webkit-border-radius:3px;}
+.search_list .search_ulA {background: #fff;border-bottom: none; left: 0;position: absolute; top: 43px; width: 258px; z-index: 9999;}
+.search_list .search_ulA li, .cities_list .search_ulA li { border-bottom: 1px solid #eee; color: #666; cursor: pointer; line-height: 35px; text-indent: 12px;}
+.search_btn {background: #ff6e00;border:none;color: #fff;cursor: pointer;display: block;font-size: 18px; height: 38px;line-height: 38px;text-align: center;transition: background 0.4s ease 0s; -webkit-transition: background 0.4s ease 0s; width: 258px;}
+.search_btn:hover {background: #ff9a37;}
+.search_btn:active { background: #cd5b04;}
+.divide-line {height:1px; font-size:0; background:url(/src/i/pc/searchline.gif) repeat-x;}
+.ipbox {width:238px; height:145px; margin-top:18px; padding:10px; border-radius:5px; -webkit-border-radius:5px; border:1px solid #ddd; overflow:hidden;}
+.ipbox ul li {line-height:30px; font-size:12px;}
+.SourceTit {border-bottom:1px solid #e2e2e2; background:#f1f1f1; color:#666;}
+.SourceTit ,.SourceTit span ,.SourceCon span {height:35px; line-height:35px;}
+.SourceTit span ,.SourceCon span {display:block; float:left; width:85px; cursor:pointer; text-align:center; z-index:9999;}
+.SourceTit span {width:60px;}
+.SourceCon span {overflow:hidden;}
+.SourceTit span.show {color:#d68c09;}
+.SourceCon {display:none; color:#666;}
+.SourceCon span {font-size:12px;}
+/*.SourceTit span:hover {background:#fff;}*/
+.SourceCon span:hover {background:#f1f1f1; color:#d68c09;}
+.inputSearch2 {
+	BORDER-RIGHT: #dcdcdc 1px solid; BORDER-TOP: #dcdcdc 1px solid; BORDER-LEFT: #dcdcdc 1px solid; COLOR: #666666; BORDER-BOTTOM: #dcdcdc 1px solid; HEIGHT: 30px; font-size:18px
+}

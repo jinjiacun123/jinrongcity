@@ -1,0 +1,54 @@
+#Login_Page { position:fixed; _position:absolute; top:0px; _top:expression(documentElement.scrollTop + 0 + "px");
+left:0px; z-index:2000; width:100%; height:100%; _width:eval(document.documentElement.clientWidth-document.documentElement.scrollLeft);
+_height:1000px; background-image:url(../images/Login_Page_BG.png); background-repeat:repeat; }
+.Login_Box, .Login_Forget, .Login_Register { position:absolute; left:50%; margin:-200px 0px 0px -250px; _margin:-300px 0px 0px -250px; width:500px; top:50%; height:auto; padding:30px 0px; background-color:#fff; }
+#Login_main, #Forget_main, #Register_main { width:400px; margin:0px auto; }
+/* 登陆部分 */
+#Username, #Password { display:block; width:100%; height:35px; line-height:35px; font-size:16px; /* border-color:#ccc; */ color:#ccc; }
+#Username { margin-bottom:22px; }
+.Login_checkbox { width:100%; height:45px; line-height:45px; font-size:14px; }
+#Rem_password { margin:0px 5px 0px 23px; vertical-align:-10%; }
+#Auto_landing { margin:0px 5px 0px 65px; vertical-align:-10%; }
+#Forgot_password { text-decoration:underline; cursor:pointer; margin-left:65px; }
+/* 注册部分 */
+.Register_box, .Forgetr_box { width:100%; height:40px; line-height:40px; font-size:16px;/* margin-bottom:18px; */ }
+.Register_box .span1, .Forgetr_box .span1 { width:83px; float:left; text-align:right; font-weight:bold; }
+.Register_box .input1, .Forgetr_box .input1 { width:296px; height:35px; float:right; line-height:35px; }
+/* 图形验证部分 */
+.ecuritycode1, ecuritycode3 { width:100%; height:58px; line-height:40px; font-size:16px; }
+.ecuritycode1 .span1 { font-size:16px; width: 83px; float: left; text-align: right; font-weight: bold; }
+.ecuritycode3 .span1 { font-size:16px; width: 120px; float: left; text-align: right; font-weight: bold; line-height:35px; }
+#ecuritycode1_code { width: 134px; height: 35px; float: left; line-height: 35px; margin-right:20px; }
+#ecuritycode3_code { width: 134px; height: 35px; float: left; line-height: 35px; margin-right:20px; margin-left:6px; }
+.ecuritycode1 #ecuritycode1, .ecuritycode3 #ecuritycode3 { width:100px; height:35px; margin:2px 0px; }
+
+.Security_Code_box,.ecuritycode1_box{width:300px;height:40px;line-height:33px; float:right;}
+.Security_Code_box .Security_Code_btn{font-size:12px;color:#f8b62d;text-decoration:underline;}
+.Security_Code_box #Security_Code{width:134px;height:35px;float:left;line-height:35px;margin-right:10px;}
+.Landing_btn_info{width:200px;height:43px;color:#e00;font-size:14px; background-color:#f2f9bb;float:left;line-height:40px;text-align:center;}
+.Landing_btn{width:122px;height:43px;  float:right; text-align:center;  font-size:16px;font-weight:bold;color:#fff;cursor:pointer; line-height:40px;background-image:url(../images/Login_Page_icon.png);background-position:-3px 0px;background-repeat:no-repeat;}
+.Agreement_box{margin-left:100px;font-size:14px;}
+.Agreement_box a{text-decoration:underline;}
+#Agreement{vertical-align:-10%;}
+/* 图形验证部分结束 */
+/* 忘记密码 */
+.Forgetr_box .span1 { width:120px; float:left; text-align:right; font-weight:bold; }
+.Forgetr_box .input1 { width:270px; height:35px; float:right; line-height:35px; }
+.Forgetr_box .Security_Code_box { width:274px; }
+.Forgetr_box #Login_other { }
+/* 公共其它登陆部分 */
+#Login_Page .info,.ecuritycode1_info{width:270px;height:18px;font-size:12px;line-height:18px; color:#e00;margin-left:140px;}
+.Login_other{width:400px;margin:30px auto 0px auto;border-top:1px solid #ccc;}
+.Login_other .Choose{height:60px;line-height:60px;width:100%;font-size:14px;font-style:italic;}
+.Login_other .Choose a{font-size:16px;color:#f8b62d;font-weight:bold;margin-left:20px;font-style:normal;/* text-decoration:underline; */}
+/* .Login_other .Choose a:hover{text-decoration:underline;} */
+.Login_other .Login_other_title { height:57px; line-height:57px; width:100%; margin:0px auto 0px auto;/* border-top:1px solid #ccc; */ font-size:16px; font-style:italic; }
+.Login_other #qq, .Login_other #sina, .Login_other #weixin { display:block; width:120px; height:42px; float:left; margin-right:19px; cursor:pointer; }
+.Login_other #qq { background-color:#da251c; _margin-right:9px; }
+.Login_other #qq .icon { width:27px; height:27px; margin:10px auto 0px auto; background-image:url(../images/Login_Page_icon.png); background-position:-3px -54px; background-repeat:no-repeat; }
+.Login_other #sina { background-color:#00a2dc; }
+.Login_other #sina .icon { width:27px; height:27px; margin:9px auto 0px auto; background-image:url(../images/Login_Page_icon.png); background-position:-38px -53px; background-repeat:no-repeat; }
+.Login_other #weixin { background-color:#10d21c; margin-right:0px; }
+.Login_other #weixin .icon { width:27px; height:27px; margin:10px auto 0px auto; background-image:url(../images/Login_Page_icon.png); background-position:-78px -54px; background-repeat:no-repeat; }
+/* 微信 */
+#weixin_img { display:block; position:absolute; z-index:3000; top:50%; left:50%; margin:-590px 0px 0px -250px; }

@@ -1,0 +1,46 @@
+body,td,th {
+	font-size: 12px;
+}
+
+ BODY {
+	scrollbar-arrow-color :#333333;
+	SCROLLBAR-HIGHLIGHT-COLOR: buttonface;
+	SCROLLBAR-SHADOW-COLOR: buttonface;
+	SCROLLBAR-3DLIGHT-COLOR: buttonhighlight;
+	SCROLLBAR-TRACK-COLOR: #eeeeee;
+	SCROLLBAR-DARKSHADOW-COLOR: buttonshadow;}
+
+a.list:link {
+	color: #0033CC;
+	text-decoration: underline;
+}
+a.list:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a.list:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a.list:active {
+	text-decoration: underline;
+	color: #333333;
+}
+
+a.list1:link {
+	color: #FF0000;
+	text-decoration: none;
+}
+a.list1:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a.list1:hover {
+	text-decoration: underline;
+	color: #0033cc;
+}
+a.list1:active {
+	text-decoration: underline;
+	color: #333333;
+}
+
