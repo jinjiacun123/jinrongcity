@@ -1,4 +1,4 @@
-<!--#include file="../Inc/Dbconn.asp" -->
+Ôªø<!--#include file="../Inc/Dbconn.asp" -->
 <!--#include file="../Inc/IsPass.asp" -->
 <!--#include file="../Inc/toPagec.asp" -->
 
@@ -142,8 +142,8 @@ function check_all(menu_all,MENU_ID)
               <td width="6%" background="images/headerbg1.gif"><div align="center" class="headtext">–Ú∫≈</div></td>
               <td width="11%" background="images/headerbg1.gif"><div align="center" class="headtext">≈≈–Ú</div></td>
               <td width="30%" background="images/headerbg1.gif"><div align="center" class="headtext">±ÍÃ‚</div></td>
-	      <td width="23%" background="images/headerbg1.gif"><div align="center" class="headtext">url</div></td>
-	      <td width="23%" background="images/headerbg1.gif"><div align="center" class="headtext"> «∑Òœ‘ æ</div></td>
+			  <td width="23%" background="images/headerbg1.gif"><div align="center" class="headtext">url</div></td>
+			  <td width="23%" background="images/headerbg1.gif"><div align="center" class="headtext"> «∑Òœ‘ æ</div></td>
               <td width="7%" background="images/headerbg1.gif"><div align="center" class="headtext">±‡º≠</div></td>
             </tr>
             <tr bgcolor="#FFFFFF">
@@ -157,8 +157,8 @@ function check_all(menu_all,MENU_ID)
               <td><div align="center"><%=  i+mypage0.pagesize * (mypage0.int_curpage-1) %></div></td>
               <td><div align="center"><%=rs_links("sort")%></div></td>
               <td><div align="center"><%=rs_links("title")%></div></td>
-	      <td><div align="left"><%=rs_ads("url")%></div></td>
-              <td><div align="left"><% if 0 == rs_ads("is_show") then%> «<% else %>∑Ò<% end if %></div></td>
+	      <td><div align="left"><%=rs_links("url")%></div></td>
+              <td><div align="left"><% if rs_links("is_show") = 0 then %> «<% else %>∑Ò<% end if %></div></td>
               <td><div align="center">
                     <img src="images/del.gif" width="16" height="16" align="absmiddle">
                             <a href="Menu_link_edit.asp?id=<%=rs_links("id")%>">±‡º≠</a>
